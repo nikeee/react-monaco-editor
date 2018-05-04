@@ -31,7 +31,7 @@ declare interface MonacoEditorProps {
   editorDidMount: (editor, monaco) => void;
   editorWillMount: (monaco) => void;
   onChange: (value, event) => void;
-  requireConfig: object;
+  requireConfig: RequireConfig;
   context: object;
 }
 
@@ -47,7 +47,7 @@ declare interface MonacoDiffEditorProps {
   editorDidMount: (editor, monaco) => void;
   editorWillMount: (monaco) => void;
   onChange: (value, event) => void;
-  requireConfig: object;
+  requireConfig: RequireConfig;
   context: object;
 }
 
